@@ -1,0 +1,83 @@
+Pratikum  3
+
+Nama : Hamzah Nasrulloh
+NIM : 211001117
+Kecerdasan Buatan (AI) 3D
+
+Soal:
+1. Tuliskan Sejarah kenapa kita pertama kali belajar programing language harus menggunakan
+“hello world”
+2. Jelaskan arti dari => print() pada PL Python.
+3. Jelaskan arti dari => print(“Hello world”) pada PL Python.
+4. Praktikkan cara eksekusi Eksekusi PL python pada
+a. Pada terminal
+b. Pada vs-code
+
+Jawaban:
+
+1. Tuliskan Sejarah kenapa kita pertama kali belajar programing language harus menggunakan
+“hello world”
+
+Orang yang pertama kali menulis program Hello World adalah Brian Kernighan1. 
+Ketika itu, beliau menulis dokumentasi untuk bahasa pemrograman BCPL (Basic Combined Programming Language) 
+dan memberikan contoh program Hello World.
+Program tersebut akan menghasilkan output hello, world.
+Brian Kernighan juga menulis dokumentasi untuk bahasa pemrograman C 
+dan diterbitkan dengan judul “Programming in C: A Tutorial”. Dalam dokumentasi tersebut, 
+beliau menuliskan contoh program Hello World Juga.
+
+Kapan Program Hello World Pertama Kali Muncul? 
+Dokumentasi tersebut terbit pada tahun 1972.
+Jadi, program Hello World pertama kali muncul di dunia pada tahun 1972.
+
+Kenapa Harus Hello World?
+berdasarkan wawancara Forbes India, beliau menyatakan: 
+Ingatan saya sangat suram sekarang. 
+Apa yang saya ingat adalah sebuah kartun yang menampilkan seekor telur dan anak ayam, dan anak ayam itu mengatakan “Hello, world!”
+
+2.Jelaskan arti dari => print() pada PL Python.
+
+Fungsi print() berfungsi untuk mencetak atau menampilkan objek ke perangkat keluaran (layar) atau ke file teks.
+Fungsi print() memiliki beberapa parameter yaitu sebagai berikut:
+objects – objek yang akan dicetak. Tanda * menunjukkan jumlah objek bisa satu atau lebih.
+sep – karakter pemisah antar objek. Defaultnya adalah spasi.
+end – karakter diakhir baris. Defaultnya adalah newline.
+file – tempat kemana objek akan ditampilkan/ditulis. Defaultnya adalah layar (sys.stdout)
+flush – Bila True, maka stream objek akan diflush. Defaultnya adalah False.
+
+3. Jelaskan arti dari => print(“Hello world”) pada PL Python.
+
+print("hello world") berarti bahwa kita memperintahkan program untuk mencetak atau menampilkan objek yang kita maksud yaitu Hello World.
+program pada Python akan  membaca prin("Hello World") sebagai tanda perintah untuk menampilkan sebuah kata "Hello World".
+
+4. Praktikkan cara eksekusi Eksekusi PL python pada
+a. Pada terminal
+
+Bukalah command prompt / terminal terlebih dahulu kemudian masuk di environment python dengan mengetik python sehingga tampil seperti ini
+
+Python 3.6.8 |Anaconda, Inc.| (default, Dec 30 2018, 01:22:34) 
+ [GCC 7.3.0] on linux
+ Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+Jika cmd atau terminal anda menampilkan halaman seperti di atas maka anda sudah masuk di lingkungan python
+
+untuk menulis kalimat di python dapat menggunakan fungsi print()
+
+>>> print("Hello World") 
+
+Oke jadi setiap baris yang kita tulis akan bisa langsung ditampilkan hasilnya
+
+b. Pada vs-code
+
+1.buka VS Code dan buatlah sebuah file baru dengan nama index.py. Pada contoh berikut, saya meletakkan file index.py.
+
+2. Mari kita menuliskan code print(“Hello World”) pada editor. Kita akan mencoba menjalankan dengan mengklik  shortcut Ctrl + Shift + D
+
+3. Pada bagian Ekstensions (Ctrl + Shift + X) VS Code, carilah ekstension Python dan install
+
+4. Akan terlihat proses pengunduhan Linter.
+
+5. Jalankan kembali code ini dengan klik kanan dan pilih “run python file in terminal”. Shortcut : Ctrl + Shift + D
+
+6. Perhatikan pada bagian terminal, jika Anda menemukan tulisan “Hello World”, maka selamat !!!, Anda berhasil menjalankan Python melalui editor VS Code.
